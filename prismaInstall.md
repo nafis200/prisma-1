@@ -49,6 +49,11 @@ model User {
 
 12. npx prisma migrate dev --name init
 
+<!-- npx prisma migrate dev --name relation
+ -->
+
+ create relationTable
+
 13. Create model at schema.prisma
 
 prisma ---> schema.prisma
@@ -113,3 +118,19 @@ const prisma = new PrismaClient();
 15 theke 5 skip kore 20 and 21 nibe.
 
 31. sorting data
+
+<!-- 54.1 -->
+
+RelationShips
+
+Each user can have one profile
+
+Each user can have multiple posts
+
+Each post can have multiple category and each category can have multiple post.
+
+<!-- 54-2 -->
+
+User and profile
+
+one to one relationship

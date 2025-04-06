@@ -5,11 +5,22 @@ const prisma = new PrismaClient();
 const relationalQueries = async () => {
 
     // fluent api
+    // const result = await prisma.user.findUnique({
+    //     where: {
+    //         id: 2
+    //     }
+    // }).profile();
+
     const result = await prisma.user.findUnique({
         where: {
-            id: 1
+            id: 2
+        },
+        include:{
+            profile:true
         }
-    }).profile();
+    })
+
+    // console.log(result)
 
 
     // relational fillters

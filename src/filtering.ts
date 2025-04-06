@@ -81,7 +81,7 @@ const filtering = async () => {
         }
     })
 
-    console.dir(inDepthData, { depth: Infinity })
+    // console.dir(inDepthData, { depth: Infinity })
 };
 
 filtering();

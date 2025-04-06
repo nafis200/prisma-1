@@ -5,24 +5,29 @@ const prisma = new PrismaClient();
 const main = async () => {
     // const createUser = await prisma.user.create({
     //     data: {
-    //         username: "user2",
-    //         email: "user2@ph.com",
+    //         username: "user3",
+    //         email: "user1@ph.com",
     //         role: UserRole.user
     //     }
     // });
 
+    // console.log(createUser)
+
     // const createProfile = await prisma.profile.create({
     //     data: {
     //         bio: "this is bio...",
-    //         userId: 1
+    //         userId: 2
     //     }
     // })
+    // console.log(createProfile)
 
     // const createCategory = await prisma.category.create({
     //     data: {
-    //         name: "software engineering"
+    //         name: "programming"
     //     }
     // })
+
+    // console.log(createCategory)
 
     const createPost = await prisma.post.create({
         data: {
@@ -35,11 +40,9 @@ const main = async () => {
                         categoryId: 1
                     },
                     {
-                        categoryId: 3
+                        categoryId: 2
                     },
-                    {
-                        categoryId: 4
-                    }
+                    
                 ]
             }
         },
