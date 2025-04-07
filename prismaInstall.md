@@ -134,3 +134,14 @@ Each post can have multiple category and each category can have multiple post.
 User and profile
 
 one to one relationship
+
+<!-- 54-10 -->
+
+Activating Logging For Enhanced Monitoring
+
+logging.ts
+
+32. prisma te dui vabe transaction lekha jay
+
+01. batch
+02. intereactive

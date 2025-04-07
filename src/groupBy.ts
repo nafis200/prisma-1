@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -11,7 +11,7 @@ const groupBy = async () => {
         having: {
             authorId: {
                 _sum: {
-                    gt: 2
+                    gt: 5
                 }
             }
         }

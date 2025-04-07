@@ -49,6 +49,7 @@ const filtering = async () => {
     const startsWith = await prisma.user.findMany({
         where: {
             email: {
+                // endWith, equals,contains
                 startsWith: 'user1@ph.com' // endsWith, contains, equals
             }
         }

@@ -42,7 +42,7 @@ model User {
   username String   @unique
   email    String
   role     UserRole @default(user)
-  // age      Int      @default(0)
+  age      Int      @default(0)
   post     Post[]
   profile  Profile?
 
