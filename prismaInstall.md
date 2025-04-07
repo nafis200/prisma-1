@@ -145,3 +145,24 @@ logging.ts
 
 01. batch
 02. intereactive
+
+
+<!-- command of prisma -->
+
+npx prisma migrate dev.
+
+npx prisma generate.
+
+npx prisma validate.
+
+npx prisma format.
+
+npx prisma db pull --print.
+
+npx prisma db pull
+
+npx prisma db push.
+
+npx prisma
+
+boss of prisma
