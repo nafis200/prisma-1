@@ -11,6 +11,9 @@ const relationalQueries = async () => {
     //     }
     // }).profile();
 
+
+    // populate kora hoyeche
+
     const result = await prisma.user.findUnique({
         where: {
             id: 2
