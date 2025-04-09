@@ -34,6 +34,7 @@ const main = async () => {
             title: "this is title 5",
             content: "this is content of the post. 5",
             authorId: 3,
+            // postCategory na dileo hobe
             postCategory: {
                 create: [
                     {
